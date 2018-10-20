@@ -1,0 +1,24 @@
+// Allowed Functions are: print, str, int, float, bool, len, list, range, abs, round, and pow
+// Give no penalty if a student jus uses ‘in’ keyword, but give them a comment about it.  
+// Note: Did not take off for list functions such as append(), prepend(), pop(), etc.
+
+
+P1: -50 for using forbidden functions.  Check the assignment requirements
+P1: -25 for not using any recursion.  Check the assignment requirements
+P1: -25 for using ‘for’ or ‘while’ loops.  Check the assignment requirements
+P1: -10 for a complex solution that is quite hard to follow.  Use good commenting, good variables names, and concise code that clearly progresses towards the solution
+
+
+
+P2: -50 for using forbidden functions.  Check the assignment requirements
+P2: -25 for not using any recursion.  Check the assignment requirements
+P2: -25 for using ‘for’ or ‘while’ loops.  Check the assignment requirements
+P2: -10 for a complex solution that is quite hard to follow.  Use good commenting, good variables names, and concise code that clearly progresses towards the solution
+
+
+
+Future Semester Notes:
+make an allowed keywords list : if, elif, else, and, or, not, return, def, assert, 
+using ‘in’ also counts as for loop.  Add to assignment requirements
+Make a forbidden keywords list: for, while, in, import
+
