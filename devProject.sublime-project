@@ -1,15 +1,12 @@
 {
-	"build-systems":
+	"build_systems":
 	[
 		{
-			"cmd":
-			[
-				"python",
-				"$file"
-			],
-			"name": "Python Run File",
-			"target": "terminus_open",
-			"working_dir": "$folder"
+			"cmd":["python", "-u", "main.py"],
+			"name": "Python Rubric",
+			"working_dir": "$folder",
+			"file_regex": "^[ ]*File\"(...*?)\", line ([0-9]*)",
+			"selector": "source.python"
 		}
 	],
 	"folders":
