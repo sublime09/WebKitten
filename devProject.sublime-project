@@ -1,4 +1,17 @@
 {
+	"build-systems":
+	[
+		{
+			"cmd":
+			[
+				"python",
+				"$file"
+			],
+			"name": "Python Run File",
+			"target": "terminus_open",
+			"working_dir": "$folder"
+		}
+	],
 	"folders":
 	[
 		{
