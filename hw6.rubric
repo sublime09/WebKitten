@@ -1,24 +1,24 @@
-// Allowed Functions are: print, str, int, float, bool, len, list, range, abs, round, and pow
-// Give no penalty if a student jus uses ‘in’ keyword, but give them a comment about it.  
-// Note: Did not take off for list functions such as append(), prepend(), pop(), etc.
-
+Allowed: print, str, int, float, bool, 
+Allowed: len, list, range, abs, round, and pow
 
 P1: -50 for using forbidden functions.  Check the assignment requirements
 P1: -25 for not using any recursion.  Check the assignment requirements
 P1: -25 for using ‘for’ or ‘while’ loops.  Check the assignment requirements
 P1: -10 for a complex solution that is quite hard to follow.  Use good commenting, good variables names, and concise code that clearly progresses towards the solution
 
-
+Good work!
 
 P2: -50 for using forbidden functions.  Check the assignment requirements
 P2: -25 for not using any recursion.  Check the assignment requirements
 P2: -25 for using ‘for’ or ‘while’ loops.  Check the assignment requirements
 P2: -10 for a complex solution that is quite hard to follow.  Use good commenting, good variables names, and concise code that clearly progresses towards the solution
 
-
+Note: The 'in' keyword uses a normal loop, not recursion.  But there's no penality for it in this case.  
+Note: List functions (pop, append, etc.) are not approved functions.  But there's no penality for it in this case.  
+Note: Avoid imports in your submission (You can turn off Eclipse's auto-import)
+Note: You include other assignments in your webcat submission.  Make sure you are only submitting the code for HW6
 
 Future Semester Notes:
-make an allowed keywords list : if, elif, else, and, or, not, return, def, assert, 
-using ‘in’ also counts as for loop.  Add to assignment requirements
+Make allowed keywords list: if, elif, else, and, or, not, return, def, assert, 
 Make a forbidden keywords list: for, while, in, import
-
+Make allowed builtins list: 
