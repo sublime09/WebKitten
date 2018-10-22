@@ -13,8 +13,8 @@ P2: -25 for not using any recursion.  Check the assignment requirements
 P2: -25 for using ‘for’ or ‘while’ loops.  Check the assignment requirements
 P2: -10 for a complex solution that is quite hard to follow.  Use good commenting, good variables names, and concise code that clearly progresses towards the solution
 
-Note: The 'in' keyword uses a normal loop, not recursion.  But there's no penality for it in this case.  
-Note: List functions (pop, append, etc.) are not approved functions.  But there's no penality for it in this case.  
+Note: The 'in' keyword uses a normal loop, not recursion.  But there's no penalty for it in this case.  
+Note: List functions (pop, append, remove, etc.) are not approved functions.  But there's no penalty for it in this case.  
 Note: Avoid imports in your submission (You can turn off Eclipse's auto-import)
 Note: You include other assignments in your webcat submission.  Make sure you are only submitting the code for HW6
 
