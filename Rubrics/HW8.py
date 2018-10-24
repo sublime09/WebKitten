@@ -1,3 +1,11 @@
+import Rubric
+
+def getRubric():
+	hw8 = Rubric()
+	hw8.addCrit("a", 1, -50, "You use forbidden functions.  Check the assignment requirements")
+	return hw8
+
+'''
 3 Stovetops:
 P1: -4 for a stovetop sketch design that is noticeably low effort.  
 P1: -8 for one missing stovetop sketch design.  
@@ -23,3 +31,4 @@ P4: -10 for not explaining Gitbash's violation of this heuristic
 
 -10 for submission one day late
 100
+'''

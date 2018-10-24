@@ -1,3 +1,18 @@
+import Rubric
+
+def getRubric():
+	hw6 = Rubric()
+	hw6.addCrit("a", 1, -50, "You use forbidden functions.  Check the assignment requirements")
+	hw6.addCrit("s", 1, -25, "You are not using any recursion.  Check the assignment requirements")
+	hw6.addCrit("d", 1, -25, "You use ‘for’ or ‘while’ loops.  Check the assignment requirements")
+	hw6.addCrit("f", 1, -10, "You solution is overly complex and quite hard to follow.  Use good commenting, good variables names, and concise code that clearly progresses towards the solution")
+	hw6.addCrit("q", 2, -50, "You use forbidden functions.  Check the assignment requirements")
+	hw6.addCrit("w", 2, -25, "You don't use any recursion.  Check the assignment requirements")
+	hw6.addCrit("e", 2, -25, "You use ‘for’ or ‘while’ loops.  Check the assignment requirements")
+	return hw6
+
+
+'''
 Allowed: print, str, int, float, bool, 
 Allowed: len, list, range, abs, round, and pow
 
@@ -21,4 +36,5 @@ Note: You include other assignments in your webcat submission.  Make sure you ar
 Future Semester Notes:
 Make allowed keywords list: if, elif, else, and, or, not, return, def, assert, 
 Make a forbidden keywords list: for, while, in, import
-Make allowed builtins list: 
+Make allowed builtins list
+'''
