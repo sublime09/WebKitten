@@ -1,7 +1,7 @@
 import pyperclip
-import rubric
+import Rubrics
 
-rubric = rubric.getHW6()
+rubric = Rubrics.getHW6()
 
 
 def main():
