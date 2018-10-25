@@ -1,8 +1,8 @@
-import Rubric
+# import Rubric
 
 def getRubric():
-	hw8 = Rubric()
-	hw8.addCrit("a", 1, -50, "You use forbidden functions.  Check the assignment requirements")
+	# hw8 = Rubric()
+	# hw8.addCrit("a", 1, -50, "You use forbidden functions.  Check the assignment requirements")
 	return hw8
 
 '''

@@ -1,7 +1,7 @@
-import Rubric
+from . import Rubric
 
 def getRubric():
-	hw6 = Rubric()
+	hw6 = Rubric.Rubric()
 	hw6.addCrit("a", 1, -50, "You use forbidden functions.  Check the assignment requirements")
 	hw6.addCrit("s", 1, -25, "You are not using any recursion.  Check the assignment requirements")
 	hw6.addCrit("d", 1, -25, "You use ‘for’ or ‘while’ loops.  Check the assignment requirements")

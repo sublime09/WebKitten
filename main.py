@@ -1,8 +1,7 @@
 import pyperclip
-import Rubrics
+import Rubrics.HW6
 
-rubric = Rubrics.getHW6()
-
+rubric = Rubrics.HW6.getRubric()
 
 def main():
 	usage = "Commands: exit, help, rubric, or a string of rubric keys"
