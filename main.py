@@ -8,7 +8,7 @@ def main():
 	print(usage)
 	userIn = ""
 	while True:
-		userIn = input("Input: ").lower().strip()
+		userIn = input("Input: ").strip().lower()
 		if "exit" in userIn:
 			break
 		elif "help" in userIn:
