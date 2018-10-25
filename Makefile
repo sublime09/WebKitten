@@ -1,5 +1,9 @@
 .PHONY: clean
 
+init:
+	pip install pywinauto
+	pip install pyperclip
+
 clean:
 	rm --force --recursive build/
 	rm --force --recursive dist/
